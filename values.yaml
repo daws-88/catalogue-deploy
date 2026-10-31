@@ -1,0 +1,7 @@
+deployment:
+  imageRepo: venkatsai12345/catalogue
+  version: v1
+
+service: 
+  servicePort: 8080
+
