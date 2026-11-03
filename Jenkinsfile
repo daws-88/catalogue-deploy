@@ -18,7 +18,7 @@ pipeline {
      }
       parameters {
         string(name: 'APP_VERSION', description: 'Which version you want to deploy?')
-        choice(name: 'CHOICE', choices: ['dev', 'qa', 'prod'], description: 'Pick something')
+        choice(name: 'deploy_to', choices: ['dev', 'qa', 'prod'], description: 'Pick something')
     
     }
     stages {       
